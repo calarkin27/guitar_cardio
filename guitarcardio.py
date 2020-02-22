@@ -18,7 +18,7 @@ key_index = chromatic_notes.index(key)
 
 #get information from scale pattern
 scale_choice = choice(scale_pattern_library.scale_pattern_list)
-# scale_choice = choice(scale_pattern_library.other_minor_list)         #change this selection to test specific scale patterns vice random via line above
+# scale_choice = choice(scale_pattern_library.arpeggio_list)         #change this selection to test specific scale patterns vice random via line above
 scale_name = scale_choice['scale_name']
 scale_construction = scale_choice['scale_construction']
 
